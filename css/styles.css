@@ -1,0 +1,240 @@
+/* home work 3 */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+img {
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.page-navigation {
+    display: flex;
+    align-items: center;
+}
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+}
+.top-page-space {
+    max-width: 936px;
+    display: flex;
+    gap: 42px;
+}
+/* home work 3 */
+.main-style {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+.top-hero-page {
+    text-align: justify;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    font-weight: 700;
+    color: #4d5ae5;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    justify-content: flex-start;
+    margin-right: 76px;
+}
+.accent-logo {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+}
+
+.navigation {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+    display: flex;
+}
+.navigation-link {
+    text-decoration: none;
+    color: #2E2F42;
+}
+.navigation-link:hover,
+.navigation-link:focus,
+.navigation-link:active {
+    color:#404BBF;
+    text-decoration: underline;
+
+}
+.contact {
+    list-style-type: none;
+    font-style: normal;
+    display: flex;
+}
+.contacts {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.contacts:hover,
+.contacts:focus,
+.contacts:active {
+    color: #404BBF;
+}
+.hero-page {
+    background-color: #2E2F42;
+}
+.title-hero-page {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 188px;
+}
+.button {
+    background: #4D5AE5;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    margin-top: 48px;
+    margin-bottom: 188px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    border-radius: 4px;
+}
+.button-position {
+    display: flex;
+    justify-content: center;
+}
+.button:hover,
+.button:focus {
+    background-color:#404BBF;
+}
+.studio {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.second-header {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.list-background {
+    background-color: #FFFFFF;
+    width: 264px;
+    height: 380px;
+    
+}
+.third-header {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-top: 32px;
+    margin-bottom: 8px;
+
+}
+.description {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.team-background {
+    background-color:#F4F4FD;
+}
+.team-list {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+.portfolio {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.banking-app {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.foot {
+    background: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.accent-logo-footer {
+    color: #F4F4FD;
+}
+.footer-p {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 264px;
+}
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 1158px;
+}
+.our-portfolio-cards {
+    padding-left: 16px;
+}
+.team-card {
+    text-align: center;
+}
+.studio-card {
+    width: 264px;
+}
