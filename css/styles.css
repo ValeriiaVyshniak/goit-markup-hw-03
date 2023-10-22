@@ -43,7 +43,8 @@ button {
 .top-page-space {
     max-width: 936px;
     display: flex;
-    gap: 42px;
+    gap: 40px;
+    padding: 24px 0;
 }
 /* home work 3 */
 .main-style {
@@ -53,8 +54,7 @@ button {
 }
 .top-hero-page {
     text-align: justify;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -118,6 +118,8 @@ button {
 }
 .hero-page {
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .title-hero-page {
     color: #FFF;
@@ -126,10 +128,10 @@ button {
     text-align: center;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 188px;
+    
 }
 .button {
     background: #4D5AE5;
@@ -139,8 +141,13 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     margin-top: 48px;
-    margin-bottom: 188px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 16px;
     padding-right: 32px;
     padding-bottom: 16px;
