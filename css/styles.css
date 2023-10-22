@@ -93,6 +93,8 @@ button {
 .navigation-link {
     text-decoration: none;
     color: #2E2F42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .navigation-link:hover,
 .navigation-link:focus,
@@ -168,7 +170,7 @@ button {
 .studio {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
 }
 .second-header {
     color: #2E2F42;
@@ -244,15 +246,28 @@ button {
 .our-portfolio-cards {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
+    border-top: none;
 }
 .team-card {
     text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .studio-card {
     flex-basis: calc((100% - 72px) / 4);
 }
 .visually-hidden {
- display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .logo-footer {
     display: inline-block;
