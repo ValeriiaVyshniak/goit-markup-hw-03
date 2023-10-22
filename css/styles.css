@@ -231,6 +231,7 @@ button {
 }
 .our-portfolio-cards {
     padding-left: 16px;
+    border: 1px solid #E7E9FC;
 }
 .team-card {
     text-align: center;
